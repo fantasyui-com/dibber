@@ -1,2 +1,38 @@
 # dibber
-Rotate Two-Dimensional Arrays (matrices) 90° forward, useful for fixing programs that confuse programming with mathematics.
+Rotate Two-Dimensional Arrays of uniform size (matrices) 90° forward, useful for fixing programs that confuse programming with mathematics.
+
+## Example
+
+
+```JavaScript
+
+//input
+[ [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
+  [ 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0 ],
+  [ 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ] ]
+
+```
+
+```JavaScript
+
+//output (rotated 90°)
+[ [ 0, 0, 0, 0, 0 ],
+  [ 1, 1, 1, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 1, 1, 1 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 1, 1, 1, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 1, 1, 1 ],
+  [ 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0 ] ]
+
+```
