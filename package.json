@@ -1,6 +1,6 @@
 {
   "name": "dibber",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Rotate Two-Dimensional Arrays (matrices) 90° forward, useful for fixing programs that confuse programming with mathematics.",
   "main": "index.js",
   "scripts": {
