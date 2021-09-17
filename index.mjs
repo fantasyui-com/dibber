@@ -1,4 +1,4 @@
-export default function(input){
+module.exports = function(input){
 
   // ASSUME A STABLE (square) MATRIX
   const rows = input.length;
